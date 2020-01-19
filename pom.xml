@@ -11,7 +11,7 @@
 	<groupId>ua.tarastom.springboot</groupId>
 	<artifactId>Spring-Boot-Demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>Spring-Boot-Demo</name>
 	<description>Project for Spring Boot</description>
 
@@ -51,17 +51,17 @@
 		<!-- http://localhost:8080/actuator/beans - add in properties ->   management.endpoints.web.exposure.include=*-->
 		<!-- FOR PRETTY JSON - https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa/related-->
 		<!-- https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#production-ready -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-actuator</artifactId>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.boot</groupId>-->
+<!--			<artifactId>spring-boot-starter-actuator</artifactId>-->
+<!--		</dependency>-->
 
 		<!-- для скрытия REST ENDPOINTS кроме /health и /info -->
 		<!-- окно пароля по-умолчанию: user, password: b9a2424f-8a9e-46db-bf99-3ba7243d7fc5 (в консоли) -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-security</artifactId>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.boot</groupId>-->
+<!--			<artifactId>spring-boot-starter-security</artifactId>-->
+<!--		</dependency>-->
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
